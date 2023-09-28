@@ -85,16 +85,16 @@ const Footer = () => {
  {/* First End */}
   <div className='pt-4  md:pt-8 xl:pt-6 lg:pt-3  px-6  md:px-0  text-[#8eb6d6]  lg:mr-10'>
    
-      <img src='./Logo.jpeg' className='md:w-14 md:h-14 w-20 h-20 md:mb-2 rounded-full xl:ml-16 xl:mb-2 md:ml-10'/>
+      <img src='./Logo.jpeg' className='md:w-14 md:h-14 w-20 h-20 md:mb-2 rounded-full  xl:mb-2  lg:mt-2 xl:mt-0'/>
       
       
     
 <div><span className='text-white text-bold md:text-[15px] text-[20px] xl:text-[24px]'>Medicaid College Chakdara</span>
  <p className='md:text-[15px] '>All rights reserved © 2022</p> </div>
-<ul className='flex pt-2 text-xs gap-4 md:gap-1'>
-  <Link href='/'><li className='md:text-[10px] lg:text-[15px] xl:text-[12px]'>TERMS OF USE </li> </Link>
-  <Link href='/'><li className='md:text-[10px] lg:text-[15px] xl:text-[12px]'>PRIVACY POLICY </li></Link>
-  <Link href='/'><li className='md:text-[10px] lg:text-[15px] xl:text-[12px] md:mr-4'>GENERIC</li> </Link>
+<ul className='flex pt-2 text-xs gap-4 md:gap-1 xl:gap-4'>
+  <Link href='/'><li className='md:text-[10px] lg:text-[9px]  xl:text-[12px]'>TERMS OF USE </li> </Link>
+  <Link href='/'><li className='md:text-[10px] lg:text-[9px] xl:text-[12px]'>PRIVACY POLICY </li></Link>
+  <Link href='/'><li className='md:text-[10px] lg:text-[9px] xl:text-[12px] md:mr-4'>GENERIC</li> </Link>
 
 
 </ul>
@@ -103,22 +103,7 @@ const Footer = () => {
   </div>
 </div>
 
-{/* End  */}
-{/* <div className=' md:pt-10 md:px-0 md:mr-8   text-[#8eb6d6] md:block hidden lg:hidden'>
-<img src='./Logo.jpeg' className=' md:w-12 md:h-12 rounded-full'/>
-<div><span className='text-white text-bold'>Medicaid College Chakdara</span> <p>All rights reserved © 2022</p> </div>
 
-
-<ul className='flex pt-2 c text-xs gap-4 md:gap-1 '>
-  <Link href='/'><li className='md:text-[10px] lg:text-[10px] hover:text-red-600 '>TERMS OF USE </li> </Link>
-  <Link href='/'><li className='md:text-[10px]'>PRIVACY POLICY </li></Link>
-  <Link href='/'><li className='md:text-[10px] md:mr-4'>GENERIC</li> </Link>
-
-
-</ul>
-
-
-  </div> */}
       
     </div>
     </div>
