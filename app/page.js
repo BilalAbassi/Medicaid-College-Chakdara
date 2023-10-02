@@ -19,6 +19,7 @@ export default function Home() {
 <div>
 <HeroBanner/>
 <SecondCOMPUNENT/>
+{/* <Banner_Footer/> */}
 
 </div>
 
@@ -43,7 +44,8 @@ export default function Home() {
          children born into the world, would mean such a release and increase of human energy as to open
         a  new phase in human history</p>
         <div className='flex items-center mt-10 '> <h2 className='font-bold '>KNOW MORE </h2>
-    <AiFillPlayCircle className='text-blue-600'/>
+    <AiFillPlayCircle className='text-red-600'/>
+    <div className="border-b text-white xl:pr-[700px] pr-[152px] md:pr-[260px] lg:pr-[400px]">ffff</div>
 
 
     </div>

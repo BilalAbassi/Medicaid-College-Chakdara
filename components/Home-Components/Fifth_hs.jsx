@@ -6,7 +6,8 @@ const Fifth_hs = () => {
   return (
     <section>
 {/* Fifth component  */}
-<div  className={`mt-8 min-h-[100vh]  md:min-h-[50vh] relative shadow-xl over overflow-hidden xl:min-h-[80vh] bg-gray-100 -z-10`}>
+<div  className={`mt-8 min-h-[100vh]  md:min-h-[50vh] relative  over 
+overflow-hidden xl:min-h-[80vh] bg-gray-100 -z-10`}>
 
       <div className='py-8 mx-5 xl:pt-16'>
         <h2 className='text-center text-sm text-gray-400'>THERE ARE MANY WAYS TO LEARN </h2>
@@ -24,7 +25,7 @@ const Fifth_hs = () => {
 
   {/* first small cart */}
 
-<div className=" relative bg-[url('../public/h11.jpg')] bg-cover -z-10 h-[40vh] mx-4
+<div className=" relative bg-[url('../public/h11.jpg')] bg-cover -z-10 h-[40vh] mx-4 shadow-2xl
 
 
 md:w-[320px] md:h-[200px] lg:h-[220px] xl:w-[360px] xl:h-[300px]
@@ -64,6 +65,7 @@ flex flex-col justify-center mb-4
 
 
 <div className=" relative bg-[url('../public/h11.jpg')] bg-cover -z-10 h-[40vh] mx-4
+shadow-2xl
 
 
 md:w-[320px] md:h-[200px]
@@ -98,6 +100,7 @@ xl:w-[360px] xl:h-[300px]
 
 <div className=" relative bg-[url('../public/h11.jpg')] bg-cover -z-10 h-[40vh] mx-4
 
+shadow-2xl
 
 md:w-[320px] md:h-[200px] lg:h-[220px]
 xl:w-[360px] xl:h-[300px]

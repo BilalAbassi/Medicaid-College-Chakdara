@@ -8,7 +8,6 @@ import {IoIosArrowDown} from "react-icons/io"
 import {BsSearch} from "react-icons/bs"
 const Navbar = () => {
     const [go,setgo]=useState(false)
-    const [smenu,setsmenu]=useState(false)
     const [open, setOpen] = useState(false);
     const [op, setOp] = useState(false);
 
@@ -33,13 +32,13 @@ p-4 md:p-0  w-full  relative z-20 items-center
        < motion.div 
    animate={{x: go ? 0 : "100%"}}
    initial={{x:"100%"}}
-   transition={{duration:2, ease:"easeInOut" }} 
+   transition={{duration:1, ease:"easeInOut" }} 
    exit={{x:"100%"}}
      
      className= {`  
-     flex-col gap-3  font-bold text-xl z-20 h-[100vh]
+     flex-col gap-3  font-bold text-xl  h-[60rem]
      
-      bg-green-600 opacity-95  w-full  top-0 pt-10 text-center absolute  ${go ? "flex" :"hidden"} md:hidden `}>
+      bg-green-600 z-50 opacity-95 w-full  top-0 pt-10 text-center absolute  ${go ? "flex" :"hidden"} md:hidden `}>
   <button className='justify-end grid mx-10' ><AiFillCloseCircle size={33} onClick={()=>{setgo(!go)}} />
   </button>
 
@@ -61,7 +60,7 @@ p-4 md:p-0  w-full  relative z-20 items-center
           <span className="flex text-white ">ACADEMICS <IoIosArrowDown/></span>
         </button>
         <ul
-          className={`  py-2  pt-4 rounded-lg shadow-xl w-full  text-white bg-green-400 ${
+          className={`    pt-4 shadow-xl w-full  text-white bg-green-400 ${
             open ? "block" : "hidden"
           }`}
         >
@@ -91,10 +90,10 @@ className=" text-left mx-20">
         <button
 onClick={()=>{setOpen(false)}}
 >
-          <span className="flex text-white items-center  ">PAGES <IoIosArrowDown/></span>
+          <span className="flex text-white items-center  ">PAGES   <IoIosArrowDown/></span>
         </button>
         <ul
-          className={`  py-2 mx-10  rounded-lg shadow-xl w-full  text-white bg-green-400 ${
+          className={`   shadow-xl w-full  text-white bg-green-400 ${
             op ? "block" : "hidden"
           }`}
         >

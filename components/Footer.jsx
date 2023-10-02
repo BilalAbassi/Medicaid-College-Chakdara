@@ -4,7 +4,7 @@ import {BiSolidToggleRight} from "react-icons/bi"
 
 const Footer = () => {
   return (
-    <div className='min-h-[30vh]  bg-[#234A66] pb-8 md:pb-0 '>
+    <div className='lg:min-h-[60vh] md:min-h-[50vh]  bg-[#234A66] pb-8 md:pb-0 '>
     <div className='   md:flex  lg:gap-8 lg:block '>
 {/* First Main */}
 <div className='md:flex lg:grid lg:grid-cols-4 '>
