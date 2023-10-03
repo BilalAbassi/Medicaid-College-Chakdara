@@ -221,8 +221,8 @@ const SecondCOMPUNENT = () => {
                         <div className="absolute inset-0 bg-green-600 opacity-90  -z-10"></div>
                         <div className='text-white z-10 p-9  '>
                          <div className=' flex items-center gap-4'><img src='./certification-ico.webp' 
-                         className='w-[70px] h-[80px]'/>
-                         <h3 className='text-white text-[25px] mt-1 text-bold uppercase'>APPLY ONLINE</h3>
+                         className='w-[60px] h-[80px]'/>
+                         <h3 className='text-white text-[25px] mt-1 text-bold uppercase'>CERTIFICATION</h3>
 
 </div>
                          

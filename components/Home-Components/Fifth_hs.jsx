@@ -1,4 +1,4 @@
-
+"use client"
 import React from 'react'
 import {IoIosPlayCircle} from "react-icons/io"
 
@@ -12,7 +12,7 @@ overflow-hidden xl:min-h-[80vh] bg-gray-100 -z-10`}>
       <div className='py-8 mx-5 xl:pt-16'>
         <h2 className='text-center text-sm text-gray-400'>THERE ARE MANY WAYS TO LEARN </h2>
         <h2 className=' text-center text-gray-700 text-3xl font-bold md:p-2 lg:text-4xl lg:p-0
-        
+         
       
         '>HOW DO YOU WANT TO STUDY?</h2></div>
 
@@ -25,7 +25,7 @@ overflow-hidden xl:min-h-[80vh] bg-gray-100 -z-10`}>
 
   {/* first small cart */}
 
-<div className=" relative bg-[url('../public/h11.jpg')] bg-cover -z-10 h-[40vh] mx-4 shadow-2xl
+<div className=" relative bg-[url('../public/h11.jpg')] bg-cover  h-[40vh] mx-4 shadow-2xl border-4 
 
 
 md:w-[320px] md:h-[200px] lg:h-[220px] xl:w-[360px] xl:h-[300px]
@@ -34,7 +34,7 @@ flex flex-col justify-center mb-4
 
 ">
 
-<div className="absolute inset-0 bg-black hover:opacity-80 -z-10  opacity-60  "></div>
+<div className="absolute inset-0 bg-black hover:opacity-80   opacity-60 "></div>
 
 <div className='relative'>
   

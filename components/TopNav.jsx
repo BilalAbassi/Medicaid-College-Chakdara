@@ -10,7 +10,7 @@ const TopNav = () => {
 
 <span className="flex items-center p-2 md:p-0 gap-1 md:mr-10">
 
-  <Image src="/logo.jpeg" alt='logo' width={40} height={40}/>
+  <img src="/logo.jpeg" alt='logo'  className='w-[40px] h-[40px]'/>
   <p className='text-xs md:hidden'>Medicaid College <br/> Chakdara</p>
 
 

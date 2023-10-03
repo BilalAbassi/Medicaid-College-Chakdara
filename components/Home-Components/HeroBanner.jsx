@@ -27,11 +27,11 @@ const HeroBanner = () => {
     return (
         <div className=' relative text-white'>
             <Carousel
-                autoPlay={false}
-                infiniteLoop={false}
-                interval={5000}
+                autoPlay={true}
+                infiniteLoop={true}
+                interval={7000}
+                showThumbs={false}
 
-                showThumbs={true}
                 showIndicators={false}
                 showStatus={false}>
                     
@@ -377,18 +377,18 @@ ease-in-out delay-150  py-4 px-6'>TAKE A TOUR <AiFillPlayCircle className="inlin
       
 
 
-       <div className="flex gap-4 ml-[70px]">
+       <div className="flex gap-6 ml-[70px]">
        <Link href='/' className=" cursor-pointer  mt-1 flex items-center">
         <button className=' hover:border 
        
-        bg-green-600 hover:text-white transition
+        bg-green-600 rounded-md hover:text-white transition
 
 ease-in-out delay-150  py-4 px-6'>Know More <AiFillPlayCircle className="inline mb-1"/></button>
        </Link> 
        <Link href='/' className=" cursor-pointer  mt-1 flex items-center">
         <button className=' hover:border 
        
-        bg-red-800 hover:text-white transition
+        bg-red-800 hover:text-white transition rounded-md
 
 ease-in-out delay-150  py-4 px-6'>TAKE A TOUR <AiFillPlayCircle className="inline mb-1"/></button>
        </Link>

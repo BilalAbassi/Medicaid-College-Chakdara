@@ -7,20 +7,18 @@ import Six_H from "@/components/Home-Components/Six_H"
 import ThirdH_com from "@/components/Home-Components/ThirdH_com"
 import SecondCOMPUNENT from "@/components/localcompunents/SecondCOMPUNENT"
 import {AiFillPlayCircle} from "react-icons/ai"
+import {BsFillArrowUpCircleFill} from "react-icons/bs"
+
 
 
 export default function Home() {
 
   return (
-   <main className="overflow-hidden ">
-    
-
-{/* <div className="relative"><Loading_State/> */}
+   <main className="overflow-hidden relative">
+  
 <div>
 <HeroBanner/>
 <SecondCOMPUNENT/>
-{/* <Banner_Footer/> */}
-
 </div>
 
 
@@ -69,6 +67,7 @@ export default function Home() {
 <Forth/>
 <Fifth_hs/>
 <Six_H/>
+
    </main>
   )
 }
