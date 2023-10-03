@@ -1,9 +1,161 @@
-import React from 'react'
-
-const about = () => {
+import React from "react";
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillSkype,
+} from "react-icons/ai";
+const About = () => {
   return (
-    <div>about</div>
-  )
-}
+    <div>
+      <div className=" bg-[url('../public/bg.webp')] bg-cover bg-opacity-8 relative -z-10 h-[33vh]
+       md:h-[45vh] lg:h-[45vh] xl:h-[40vh] ]">
+        <div className="absolute inset-0 bg-black opacity-60 -z-10"></div>
+        <div className="pt-6">
+          <h2 className=" font-bold text-[30px] text-white text-center font-['texgyreadventorbold'] md:text-[46px] md:text-center md:pt-[2.5rem] lg:text-[46px] ">
+            ABOUT US
+          </h2>
+          <p className=" text-[14px] text-center text-white md:text-[16px] md:text-center md:p-[10rem] md:pt-1 md:pb-0 lg:p-[18rem] lg:pt-1 lg:pb-0 lg:text-[16px] xl:p-[30rem] xl:pt-1 xl:pb-0 ">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+      <div className="bg-[#F3F6F8]">
+        <div className="md:pt-[1.5rem] xl:pt-[3rem]">
+          <p className="font-['texgyreadventorbold'] text-[14px] text-center pt-[2.5rem] text-[#7A7A7A]">
+            THERE ARE MANNY WAYS TO LEARN
+          </p>
+          <p className="text-[26px] text-center font-bold text-[#2a4356] md:text-[30px] xl:text-[36px]">
+            BROWSE BY TEACHER
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 xl:pl-[5em] xl:pr-[5em]">
+          <div className=" mt-[4em] md:border-r-2 ">
+            <div className="text-center">
+              <div className="flex justify-center">
+                <img src={"./teacher1.webp"} className="w-[100px] h-[100px]" />
+              </div>
+              <div className="mt-6">
+                <p className="text-[14px] font-bold text-[#414a4f]">
+                  BRUNO ACSELRAD
+                </p>
+                <p className="text-[12px] text-[#7A7A7A]">Math Teacher</p>
+                <div className="text-center">
+                  <p className="text-[12px] leading-[22px] pt-4 p-8 text-[#7A7A7A] lg:p-10 lg:pt-4  xl:p-12 xl:pt-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since.
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center mb-4 ">
+                <button>
+                  <AiFillTwitterCircle className=" text-[#00A0D1] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+                </button>
+                <button>
+                  <AiFillLinkedin className="text-[#0E76A8] hover:text-black text-[25px] xl:text-[30px] xl:mr-2 " />
+                </button>
+                <button>
+                  <AiFillSkype className="text-[#00AFF0] hover:text-black text-[25px] xl:text-[30px]" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="text-center mt-[4em] md:border-r-2 ">
+            <div className="flex justify-center">
+              <img src={"./teacher2.webp"} className="w-[100px] h-[100px]"  />
+            </div>
+            <div className="mt-6">
+              <p className="text-[14px] font-bold text-[#414a4f]">
+                BRUNO ACSELRAD
+              </p>
+              <p className="text-[12px] text-[#7A7A7A]">Senior Lecturer</p>
+              <div className="text-center">
+                <p className="text-[12px] leading-[22px] pt-4 p-8 text-[#7A7A7A] lg:p-10 lg:pt-4  xl:p-12 xl:pt-4">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since.
+                </p>
+              </div>
+            </div>
+            <div className="flex justify-center ">
+              <button>
+                <AiFillTwitterCircle className=" text-[#00A0D1] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+              </button>
+              <button>
+                <AiFillLinkedin className="text-[#0E76A8] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+              </button>
+              <button>
+                <AiFillSkype className="text-[#00AFF0] hover:text-black text-[25px] xl:text-[30px]" />
+              </button>
+            </div>
+          </div>
+          <div className=" mt-[4em] md:border-r-2 ">
+            <div className=" text-center">
+              <div className="flex justify-center">
+                <img src={"./teacher2.webp"} className="w-[100px] h-[100px]"  />
+              </div>
+              <div className="mt-6">
+                <p className="text-[14px] font-bold text-[#414a4f]">
+                  BRUNO ACSELRAD
+                </p>
+                <p className="text-[12px] text-[#7A7A7A]">Professor</p>
+                <div className="text-center">
+                  <p className="text-[12px] leading-[22px] pt-4 p-8 text-[#7A7A7A] lg:p-10 lg:pt-4  xl:p-12 xl:pt-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since.
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center ">
+                <button>
+                  <AiFillTwitterCircle className=" text-[#00A0D1] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+                </button>
+                <button>
+                  <AiFillLinkedin className="text-[#0E76A8] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+                </button>
+                <button>
+                  <AiFillSkype className="text-[#00AFF0] hover:text-black text-[25px] xl:text-[30px]" />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className=" mt-[4em]">
+            <div className=" text-center ">
+              <div className="flex justify-center">
+                <img src={"./teacher1.webp"} className="w-[100px] h-[100px]"  />
+              </div>
+              <div className="mt-6">
+                <p className="text-[14px] font-bold text-[#414a4f]">
+                  BRUNO ACSELRAD
+                </p>
+                <p className="text-[12px] text-[#7A7A7A]">Math Teacher</p>
+                <div className="text-center">
+                  <p className="text-[12px] leading-[22px] pt-4 p-8 text-[#7A7A7A] lg:p-10 lg:pt-4 xl:p-12 xl:pt-4">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since.
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center mb-4">
+                <button>
+                  <AiFillTwitterCircle className=" text-[#00A0D1] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+                </button>
+                <button>
+                  <AiFillLinkedin className="text-[#0E76A8] hover:text-black text-[25px] xl:text-[30px] xl:mr-2" />
+                </button>
+                <button>
+                  <AiFillSkype className="text-[#00AFF0] hover:text-black text-[25px] xl:text-[30px]" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default about
+export default About;

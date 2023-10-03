@@ -7,19 +7,18 @@ import Six_H from "@/components/Home-Components/Six_H"
 import ThirdH_com from "@/components/Home-Components/ThirdH_com"
 import SecondCOMPUNENT from "@/components/localcompunents/SecondCOMPUNENT"
 import {AiFillPlayCircle} from "react-icons/ai"
+import {BsFillArrowUpCircleFill} from "react-icons/bs"
+
 
 
 export default function Home() {
 
   return (
-   <main className="overflow-hidden ">
-    
-
-{/* <div className="relative"><Loading_State/> */}
+   <main className="overflow-hidden relative">
+  
 <div>
 <HeroBanner/>
 <SecondCOMPUNENT/>
-
 </div>
 
 
@@ -43,7 +42,8 @@ export default function Home() {
          children born into the world, would mean such a release and increase of human energy as to open
         a  new phase in human history</p>
         <div className='flex items-center mt-10 '> <h2 className='font-bold '>KNOW MORE </h2>
-    <AiFillPlayCircle className='text-blue-600'/>
+    <AiFillPlayCircle className='text-red-600'/>
+    <div className="border-b text-white xl:pr-[700px] pr-[152px] md:pr-[260px] lg:pr-[400px]">ffff</div>
 
 
     </div>
@@ -67,6 +67,7 @@ export default function Home() {
 <Forth/>
 <Fifth_hs/>
 <Six_H/>
+
    </main>
   )
 }
